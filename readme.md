@@ -28,11 +28,11 @@ for the purpose of this model
 
 ## Assessment 04
 
-I created a User class and a Order class that uses the configuratio files to do the job.
+I created a User class and a Order class that uses the configuration files to do the job.
 
 
 ## Assesment completed
 
 Im sorry i could not complete it the first 24 hours. I was very busy.
 
-Thank you for giving me the opportunity to complete this assessment. I had a lot of fun doing it. However this goes let me know my results in order for me to know what i could have done better in order improve my skills.
+Thank you for giving me the opportunity to complete this assessment. I had a lot of fun doing it. However this goes let me know my results in order for me to know what i could have done better and improve my skills for the future.
