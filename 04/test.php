@@ -3,7 +3,7 @@
 	require 'User.php';
 	require 'order.php';
 
-	$baila = new User('Baila', 'Kahn', 'on');
+	$baila = new User('Baila', 'Kahn', 'qc');
 
 	var_dump($baila);
 
