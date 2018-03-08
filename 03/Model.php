@@ -11,6 +11,9 @@
 		protected $table;
 		protected $db;
 		
+		/**
+     	* Model constructor.
+     	*/
 		function __construct(Database $db)
 		{
 

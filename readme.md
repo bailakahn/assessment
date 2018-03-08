@@ -1,36 +1,38 @@
-# KLF Technical Assessment
-
-This is the technical assessment for candidates looking to apply for the position of PHP Developer at KLF Group. 
-
-You can work on this technical assessment with whatever tools you'd require. For the assessments that would require you to build a function or a class, you can create the environment to test your function or class however you'd like. We'd just need to see the completed class or function.
-
-Please allow around 2-3 hours to complete this assessment.
+# KLF Technical Assessment( If you read this 'readme.md' then ignore any other readme file in the assessment folder )
 
 ## Assessment 01
 
-This is to assess your ability to evaluate syntax and to create clean, easy-to-read code.
-
-In the file messy-code.php, it contains functional code to display, add and update basic company information with a mix of PHP and HTML forms. Using your knowledge, rewrite this file to ensure it's easy to read and has proper coding structure. You are allowed to use functions or classes to complete this task.
+For this assessment i didn't used any class or function i just cleaned the code
 
 ## Assessment 02
 
-This assessment will serve to evaluate your troubleshooting abilities.
+I created two functions for this assessment. 
 
-In the file bugg-function.php, there are a number of bugs that can cause potential issues in certain conditions. Identify these potential bugs and correct them. You are free to create or user whatever functions you'd like to complete this task.
+__cleanData()__ to clean all the data sent by the user and __sendMail()__ to send the mail in a proper way  
 
 ## Assessment 03
 
-Using the database dump in the subdirectory, create a model with base CRUD functions (to select, insert, update and delete). Assume that these functions will be called from HTML forms via GET or POST.
+To do the assessment 03:
 
-The purpose of this assessment will be to evaluate your code structure with basic operation. Efficiency and quality is key.
+1 - I created a Database class that allow us
+to connect to a Database and define basic MySQL queries and prepared queries.
+
+2 - I crated a Model class with base CRUD functions. Then i created a UserModel
+class that extends the Model class. This user model can define customized 
+function and operations for the user table.
+
+3 - I created a test file to test my CRUD functions.
+
+I assumed that i don't need to verify if the $_GET or $_POST variables are set or valid
+for the purpose of this model
 
 ## Assessment 04
 
-Create a class that charges taxes on an order total based on the user's province (Canada only). This class will also apply coupon discounts using a coupon code. Assume that the taxes and valid coupon codes are in a separate configuration file.
-
-This assessment will allow us to evaluate your OOP skills.
+I created a User class and a Order class that uses the configuration files to do the job.
 
 
-## Once completed
+## Assesment completed
 
-For each assessment, include your finished code into the same directory for each assessment. Once your are finished, create a public repository on GitHub, upload your finished assessment and share the URL to your evaluator by email.
+Im sorry i could not complete it the first 24 hours. I was very busy.
+
+Thank you for giving me the opportunity to complete this assessment. I had a lot of fun doing it. However this goes let me know my results in order for me to know what i could have done better and improve my skills for the future.

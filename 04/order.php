@@ -9,6 +9,12 @@ class Order {
 	private $total;
 	private $user;
 
+	/**
+     * Order constructor.
+     * @param $user User the user who completed the order
+     * @param $total float the order total
+     * @param $coupon string the user coupon
+     */
 	function __construct(User $user, $total, $coupon = null){
 
 		$this->user = $user;
@@ -25,7 +31,7 @@ class Order {
 
 
 	/**
-	* @return string the order total 
+	* @return float the order total 
 	*/
 	public function getTotal(){
 
@@ -43,7 +49,7 @@ class Order {
 	}
 
 	/**
-	* @return string the order new total 
+	* @return float the order new total 
 	*/
 	public function applyDiscount(){
 
@@ -84,7 +90,7 @@ class Order {
 */
 
 	/**
-	* @return $this order final total
+	* @return float the order final total
 	*/
 	public function chargeTaxes(){
 
